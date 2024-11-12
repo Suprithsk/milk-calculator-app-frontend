@@ -1,0 +1,76 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #318CE7;
+    color: white;
+    padding: 1.5rem 6rem;
+}
+.header h3{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.signin_btn{
+    background-color: rgb(236, 232, 226);
+    color: #318CE7;
+    font-weight: bold;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+.signin_btn:hover{
+    background-color: #dfe8f2;
+}
+.second_div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.menu{
+    cursor: pointer;
+}
+.nav{
+    position: absolute;
+    top: 4.5rem;
+    right: 6rem;
+    background-color: white;
+    border-radius: 5px;
+    padding: 1rem;
+    z-index: 1;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    padding: 0.5rem 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+@media screen and (max-width: 768px){
+    .header{
+        padding: 1.5rem 2rem;
+    }
+    .header h3{
+        font-size: 1rem;
+    }
+    .signin_btn{
+        background-color: rgb(236, 232, 226);
+        color: #318CE7;
+        font-weight: bold;
+        border: none;
+        padding: 0.4rem 1.2rem;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1rem;
+        transition: background-color 0.3s;
+    } 
+    .nav{
+        right: 2rem;
+    }
+}

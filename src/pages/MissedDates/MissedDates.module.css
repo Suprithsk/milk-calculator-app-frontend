@@ -1,0 +1,32 @@
+.first_div{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 1rem;
+    gap: 10px;
+    align-items: center;
+}
+.elements_div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.element{
+    width: 200px;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: rgb(221, 202, 202);
+    color: rgb(92, 80, 80);
+}
+@media screen and (max-width: 768px){
+    .elements_div{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .element{
+        width: 100%;
+    }
+    
+}

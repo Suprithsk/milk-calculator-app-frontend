@@ -1,0 +1,54 @@
+
+.analytics_div>h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.elements_div{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+.summary_text{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.element{
+    width: 30%;
+    padding: 1rem;
+    border-radius: 5px;
+}
+#element1{
+    background-color:  rgb(239 246 255);
+    color:  rgb(0 82 204);
+
+}
+#element2{
+    background-color: rgb(240 253 244);
+    color:  rgb(0 128 0);
+}
+#element3{
+    background-color: rgb(250 245 255);
+    color:  rgb(107 33 168);
+}
+.element h3{
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+.element p{
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 768px){
+    .elements_div{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .element{
+        width: 100%;
+    }
+}
